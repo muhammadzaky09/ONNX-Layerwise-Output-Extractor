@@ -22,7 +22,7 @@ for layer in directory_list:
 onnx.save(model, "lenet5-8_modified.onnx")
 
 sample_input = np.random.randn(1, 1, 28, 28).astype(np.float32)
-output, output_names = run_onnx_model("lenet5-8_modified.onnx", sample_input)
+output= run_onnx_model("lenet5-8_modified.onnx", sample_input)
 print(output)
-print(output_names)
+
    

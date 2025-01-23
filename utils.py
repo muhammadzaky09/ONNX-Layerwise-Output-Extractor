@@ -22,6 +22,7 @@ def run_onnx_model(model_path, input_data):
     session = ort.InferenceSession(model_path)
     input_name = session.get_inputs()[0].name
     input_dict = {input_name: input_data}
-    output = session.run(None, input_dict)
+    outputs = session.run(None, input_dict)
     output_names = [output.name for output in session.get_outputs()]
-    return output, output_names
+    output_dict = dict(zip(output_names, outputs))
+    return output_dict
