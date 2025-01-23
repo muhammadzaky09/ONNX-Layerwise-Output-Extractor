@@ -1,0 +1,9 @@
+{
+  "target_layer": "Conv_1",
+  "input_tensor": "DequantizeLinear_7_out0",
+  "weight_tensor": "DequantizeLinear_2_out0",
+  "bias_tensor": "Conv_1_param0",
+  "output_tensor": "Conv_1_out0",
+  "target_tensor": "Relu_1_out0",
+  "model_name": "lenet5_test8.onnx"
+}
