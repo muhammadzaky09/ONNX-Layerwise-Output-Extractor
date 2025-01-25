@@ -1,9 +1,9 @@
 {
   "target_layer": "Gemm_2",
-  "input_tensor": "DequantizeLinear_13_out0",
+  "input_tensor": "DequantizeLinear_17_out0",
   "weight_tensor": "DequantizeLinear_5_out0",
   "bias_tensor": "Gemm_2_param0",
   "output_tensor": "Gemm_2_out0",
-  "target_tensor": "QuantizeLinear_14_out0",
+  "target_tensor": "QuantizeLinear_18_out0",
   "model_name": "lenet5_test8.onnx"
 }

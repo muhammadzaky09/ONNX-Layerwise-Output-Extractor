@@ -4,6 +4,6 @@
   "weight_tensor": "DequantizeLinear_1_out0",
   "bias_tensor": "Conv_0_param0",
   "output_tensor": "Conv_0_out0",
-  "target_tensor": "Relu_0_out0",
+  "target_tensor": "QuantizeLinear_6_out0",
   "model_name": "lenet5_test8.onnx"
 }
